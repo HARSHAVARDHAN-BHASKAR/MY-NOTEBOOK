@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import express from "express";
 import path from "path";
 import { connectDB } from "./config/db.js";
-import rateLimiter from "./middleware/ratelimiter.js";
+import rateLimiter from "./middleware/rateLimiter.js";
 import nodeRoute from './routes/nodeRoute.js';
 dotenv.config();
 connectDB();
